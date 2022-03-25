@@ -3,7 +3,7 @@
 define('APPROOT', dirname(dirname(__FILE__)));
 
 //URLROOT (Dynamic links)
-define('URLROOT', 'http://localhost/mini-site');
+define('URLROOT', 'http://localhost/OTTO');
 
 //Sitename
 define('SITENAME', 'MVC Framework');

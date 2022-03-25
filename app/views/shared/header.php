@@ -22,7 +22,7 @@ switch ($data['title']) {
 <html lang="en" class="h-100">
 
 <head>
-    <title>App Name: A Coding Project By Alexander Nævdal</title>
+    <title>OTTO: A Coding Project By Alexander Nævdal</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -36,9 +36,9 @@ switch ($data['title']) {
 
 <body class="d-flex flex-column h-100">
 
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">APP NAME</a>
+            <a class="navbar-brand" href="#">OTTO</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -54,7 +54,7 @@ switch ($data['title']) {
                         <a <?php echo $source; ?> href="<?php echo URLROOT; ?>/source">The Code</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" target="_blank" href="https://github.com/alexnaev">Git Repo</a>
+                        <a class="nav-link" target="_blank" href="https://github.com/alexnaev/OTTO">Git Repo</a>
                     </li>
                 </ul>
             </div>
