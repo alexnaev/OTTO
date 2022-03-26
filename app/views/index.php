@@ -8,7 +8,7 @@ require_once 'shared/header.php';
             <div class="col order-last order-lg-first">
                 <h1 class="display-5 fw-bold lh-1 mb-3">OTTO: A Coding Project</h1>
                 <h4 class="lead">
-                    Live life one loop at a time. A javascript coding exercise using loops. Write a program that displays the numbers from 0 to 100. Display the even numbers in <strong>BOLD.</strong>
+                    Write a program to determine if the word or phrase entered is a palindrome. A palindrome is a word or phrase that reads the same backward as forward.
                 </h4>
                 <ul class="fa-ul pt-2 checklist">
                     <li><span class="fa-li"><i class="fas fa-check-square"></i></span>CSS and Bootstrap Layout</li>

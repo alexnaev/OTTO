@@ -8,10 +8,10 @@ require_once 'shared/header.php';
             <div class="col-lg-4 col border-end border-2">
                 <h1>OTTO: A Coding Project</h1>
                 <h4 class="lead">
-                    Live life one loop at a time. A javascript coding exercise using loops. Write a program that displays the numbers from 0 to 100. Display the even numbers in <strong>BOLD.</strong>
+                    Write a program to determine if the word or phrase entered is a palindrome. A palindrome is a word or phrase that reads the same backward as forward.
                 </h4>
                 <h2 class="mt-5 border-bottom border-2">Instructions</h2>
-                <p>Enter a starting value and an ending value. Press the button and the values will appear.</p>
+                <p>Enter a word or phrase. Press the button and the app will tell you if it`s a palindrome.</p>
             </div>
             <div class="col-lg-8 col">
                 <div>
@@ -24,8 +24,10 @@ require_once 'shared/header.php';
                             <button id="btnSubmit" type="button" class="btn btn-dark btn-lg">Check It!</button>
                         </div>
                     </form>
-                    <div class="container">
-                        <p>Text</p>
+                    <div class="alert mt-5 invisible fade show" id="alert">
+                        <h4 id="alertHeader" class="alert-heading"></h4>
+                        <hr>
+                        <p id="msg" class="mb-0"></p>
                     </div>
                 </div>
             </div>
@@ -34,7 +36,7 @@ require_once 'shared/header.php';
 </main>
 <script src="js/site.js"></script>
 <script>
-    document.querySelector('#btnSubmit').addEventListener('click', getValues);
+    document.querySelector('#btnSubmit').addEventListener('click', getValue);
 </script>
 <?php
 require_once 'shared/footer.php';
